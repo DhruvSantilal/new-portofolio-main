@@ -97,7 +97,7 @@ function Contact() {
                 animateOnce={true}
               >
                 <p>
-                  Don't like forms? Send me an{" "}
+                  Don't like forms? Send me an email: 
                   <a target="_blank" href="mailto:dhruvpatel2404@hotmail.co.uk">
                     dhruvpatel2404@hotmail.co.uk
                   </a>

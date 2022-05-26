@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
+import File from "../../dhruv-santilal-2022-frontend.pdf";
 // import Logo from "../elements/Logo";
 
 function Header({ light, logoSource, toggleMenu, headerToggler }) {
@@ -84,6 +85,19 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
                 duration={500}
               >
                 <i className="icon-bubbles"></i>Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                 activeClass="active"
+                to="section-about"
+                target="_blank"
+                download
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <i className="icon-doc"></i> CV
               </Link>
             </li>
           </ul>

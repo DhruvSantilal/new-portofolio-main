@@ -3,10 +3,10 @@ import React from "react";
 import Pagetitle from "../elements/Pagetitle";
 
 import { Link } from "react-router-dom";
-import File from "../../YassineSalhiCV.pdf";
+import File from "../../dhruv-santilal-2022-frontend.pdf";
 
 let intro = `
-  👋🏽 Hi, my name is Dhruv
+  👋🏽 Hi, my name is Dhruv Santilal
   `;
 let education = `
   🎓 Soon to be a grad with a Bachelor's of Science in Computer Science - First (June 2022) 
@@ -17,60 +17,6 @@ let passion = `
 let skills = `
 📚 Most experienced within JavaScript [React.JS, Redux, Node.JS, Express.JS] and Java [Spring, Springboot] and currently pursuing AWS Solutions Architect Certification `;
 // let future = `💻 As for my future, I am looking for offers as a Full-Stack Developer within a diverse team at a company that will push me to learn and hone in on my abilities further`;
-
-// const aboutContent = {
-//   name: 'Bolby',
-//   avatarImage: '/images/avatar-2.svg',
-//   content: '',
-// };
-
-// const progressData = [
-//   {
-//     id: 1,
-//     title: 'Development',
-//     percantage: 85,
-//     progressColor: '#FFD15C',
-//   },
-//   {
-//     id: 2,
-//     title: 'UI/UX Design',
-//     percantage: 95,
-//     progressColor: '#FF4C60',
-//   },
-//   {
-//     id: 3,
-//     title: 'Photography',
-//     percantage: 70,
-//     progressColor: '#6C6CE5',
-//   },
-// ];
-
-// const counterData = [
-//   {
-//     id: 1,
-//     title: 'Projects completed',
-//     count: 198,
-//     icon: 'icon-fire',
-//   },
-//   {
-//     id: 2,
-//     title: 'Cup of coffee',
-//     count: 5670,
-//     icon: 'icon-cup',
-//   },
-//   {
-//     id: 3,
-//     title: 'Satisfied clients',
-//     count: 427,
-//     icon: 'icon-people',
-//   },
-//   {
-//     id: 4,
-//     title: 'Nominees winner',
-//     count: 35,
-//     icon: 'icon-badge',
-//   },
-// ];
 
 function About() {
   return (
@@ -104,7 +50,7 @@ function About() {
                       download
                       className="btn btn-default"
                     >
-                      View Resume
+                      View CV
                     </Link>
                   </div>
                   <div
@@ -112,30 +58,11 @@ function About() {
                     data-height="30"
                   ></div>
                 </div>
-                {/* <div className='col-md-6'>
-                  {progressData.map((progress) => (
-                    <TrackVisibility
-                      once
-                      key={progress.id}
-                      className='progress-wrapper'>
-                      <Skill progress={progress} />
-                    </TrackVisibility>
-                  ))}
-                </div> */}
               </div>
             </div>
           </div>
         </div>
         <div className="spacer" data-height="70"></div>
-        {/* <div className="row fix-spacing">
-          {counterData.map((counter) => (
-            <div key={counter.id} className="col-md-3 col-sm-6">
-              <TrackVisibility once>
-                <Counter counterItem={counter} />
-              </TrackVisibility>
-            </div>
-          ))}
-        </div> */}
       </div>
     </section>
   );

@@ -35,13 +35,13 @@ function Herosection(props) {
             <Typed
               strings={[
                 "Front-End Developer.",
-                "Back-End Developer.",
+                "React Developer.",
                 "Full-Stack Engineer.",
+                "Software Engineer.",
                 "Java Developer.",
                 "JS Developer.",
-                "Springboot Developer.",
-                "Express Developer.",
                 "Node.JS Developer.",
+                "Javascript Developer",
               ]}
               typeSpeed={80}
               backSpeed={40}
@@ -56,13 +56,13 @@ function Herosection(props) {
             <li className="list-inline-item">
               <a
                 target="_blank"
-                href="https://www.linkedin.com/in/yassinesalhi/"
+                href="https://www.linkedin.com/in/dhruv-santilal-4b8790210/"
               >
                 <i class="fab fa-linkedin"></i>{" "}
               </a>
             </li>
             <li className="list-inline-item">
-              <a target="_blank" href="https://github.com/SalhiYassine">
+              <a target="_blank" href="https://github.com/DhruvSantilal">
                 <i className="fab fa-github"></i>
               </a>
             </li>

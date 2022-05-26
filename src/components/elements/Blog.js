@@ -49,6 +49,13 @@ function Blog({ blogData }) {
             >
               Source
             </a>
+            <a
+              target="_blank"
+              href={githubURL}
+              className="btn btn-default btn-md btn-dark bg-dark"
+            >
+              Live test
+            </a>
           </div>
         </div>
       </div>

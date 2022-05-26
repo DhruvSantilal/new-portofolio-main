@@ -7,27 +7,75 @@ import Brandlogos from "./Brandlogos";
 const allBlogs = [
   {
     id: 1,
-    title: "Full Stack E-Commerce Application",
-    image: "images/hiking.png",
-    filesource: "../../blogs/MERN-FullStack-Ecommerce.md",
-    date: "09 July, 2021",
-    author: "Yassine Salhi",
-    category: "Full-Stack",
-    liveURL: "",
+    title: "Alternative",
+    image: "images/alternative-logo.png",
+    // filesource: "../../blogs/MERN-FullStack-Ecommerce.md",
+    category: "React-native",
+    // liveURL: "",
     githubURL: "https://github.com/SalhiYassine/MERN-Ecommerce",
-    frontend: "Front-End: [React.JS, Redux, Axios]",
+    frontend: "Front-End: [React.JS, Context.JS, Axios]",
     backend: "Back-End: [Express.JS, Node.JS, Mongoose.JS]",
     api: "APIs: [PayPal, Stripe]",
     live: false,
   },
   {
     id: 2,
-    title: "Full Stack Resource Sharing Application",
-    image: "images/hiking.png",
+    title: "Crypto App",
+    image: "images/crypto-app.png",
     filesource: "../../blogs/MERN-FullStack-Ecommerce.md",
-    date: "14 May, 2021",
-    author: "Yassine Salhi",
+    category: "React",
+    liveURL: "",
+    githubURL: "https://github.com/SalhiYassine/resource-sharing-full-stack",
+    frontend: "Front-End: [React.JS, Context.JS, Axios]",
+    backend: "Back-End: [Spring, SpringBoot, SpringSecurity]",
+    api: "APIs: N/A",
+    live: false,
+  },
+  {
+    id: 3,
+    title: "Covid-19 Tracker",
+    image: "images/covid-tracker.png",
+    filesource: "../../blogs/MERN-FullStack-Ecommerce.md",
+    category: "React",
+    liveURL: "",
+    githubURL: "https://github.com/SalhiYassine/resource-sharing-full-stack",
+    frontend: "Front-End: [React.JS, Context.JS, Axios]",
+    backend: "Back-End: [Spring, SpringBoot, SpringSecurity]",
+    api: "APIs: N/A",
+    live: false,
+  },
+  {
+    id: 4,
+    title: "Next.js Simple website",
+    image: "images/nextjs.png",
+    filesource: "../../blogs/MERN-FullStack-Ecommerce.md",
+    category: "Next.js",
+    liveURL: "",
+    githubURL: "https://github.com/SalhiYassine/resource-sharing-full-stack",
+    frontend: "Front-End: [React.JS, Context.JS, Axios]",
+    backend: "Back-End: [Spring, SpringBoot, SpringSecurity]",
+    api: "APIs: N/A",
+    live: false,
+  },
+  {
+    id: 5,
+    title: "IRecycle",
+    image: "images/home-final.jpg",
+    filesource: "../../blogs/MERN-FullStack-Ecommerce.md",
     category: "Full-Stack",
+    liveURL: "",
+    githubURL: "https://github.com/SalhiYassine/resource-sharing-full-stack",
+    frontend: "Front-End: [React.JS, Context.JS, Axios]",
+    backend: "Back-End: [Spring, SpringBoot, SpringSecurity]",
+    api: "APIs: N/A",
+    live: false,
+  },
+  {
+    id: 6,
+    title: "2D Platformer Game",
+    image: "images/2dplatformer.png",
+    filesource: "../../blogs/MERN-FullStack-Ecommerce.md",
+    category: "Unity Game",
     liveURL: "",
     githubURL: "https://github.com/SalhiYassine/resource-sharing-full-stack",
     frontend: "Front-End: [React.JS, Context.JS, Axios]",
@@ -40,14 +88,11 @@ const allBlogs = [
 function Blogs() {
   return (
     <section id="blog">
-      <div className="container">
+      <div className="container w-100">
         <Pagetitle title="Latest Projects" />
-        <div className="row blog-wrapper container">
+        <div className="row blog-wrapper container w-100">
           {allBlogs.map((blogItem) => (
-            <div
-              className=" col-xl-5 col-lg-7 col-md-7 col-sm-12 col-xs-12 my-4 mx-auto"
-              key={blogItem.id}
-            >
+            <div className=" col col-lg-4 my-4 w-20 " key={blogItem.id}>
               <Blog blogData={blogItem} />
             </div>
           ))}
