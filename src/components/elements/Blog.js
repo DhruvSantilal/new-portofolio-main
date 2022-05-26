@@ -15,6 +15,7 @@ function Blog({ blogData }) {
     api,
     live,
     githubURL,
+    liveTest,
   } = blogData;
 
   return (
@@ -29,7 +30,7 @@ function Blog({ blogData }) {
             <span className="category">{category}</span>
           </a>
 
-          <img src={image} alt="blog-title" />
+          <img className="w-100" src={image} alt="blog-title" />
         </div>
         <div className="details">
           <h4 className="my-0 title">{title}</h4>
@@ -51,7 +52,7 @@ function Blog({ blogData }) {
             </a>
             <a
               target="_blank"
-              href={githubURL}
+              href={liveTest}
               className="btn btn-default btn-md btn-dark bg-dark"
             >
               Live test
