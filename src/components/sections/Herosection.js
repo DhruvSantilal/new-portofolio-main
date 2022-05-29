@@ -154,6 +154,7 @@ function Herosection(props) {
               width="3"
               height="25"
               rx="1.5"
+              // yellow 1
               fill="#FFD15C"
               fillRule="evenodd"
             />
@@ -172,6 +173,7 @@ function Herosection(props) {
               width="3"
               height="25"
               rx="1.5"
+              //blue 1
               fill="#6C6CE5"
               fillRule="evenodd"
             />
@@ -199,6 +201,7 @@ function Herosection(props) {
           >
             <path
               d="M13 22.6459L2.42705 1.5h21.1459L13 22.6459z"
+              //triangle yellow
               stroke="#FFD15C"
               strokeWidth="3"
               fill="none"
@@ -219,6 +222,8 @@ function Herosection(props) {
               width="3"
               height="25"
               rx="1.5"
+              //line blue
+              // fill="#6C6CE5"
               fill="#6C6CE5"
               fillRule="evenodd"
             />

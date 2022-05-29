@@ -33,10 +33,10 @@ function Contact() {
     } else {
       emailjs
         .sendForm(
-          "service_1f448bn",
-          "template_ewi4wxa",
+          "service_vmsewqi",
+          "template_wb3dxgy",
           event.target,
-          "user_LZOdjrmcYSEO8ME4FRSLK"
+          "4UIDCnqIyjk_Td-Yx"
         )
         .then(
           (result) => {
@@ -97,7 +97,7 @@ function Contact() {
                 animateOnce={true}
               >
                 <p>
-                  Don't like forms? Send me an email: 
+                  Don't like forms? Send me an email:
                   <a target="_blank" href="mailto:dhruvpatel2404@hotmail.co.uk">
                     dhruvpatel2404@hotmail.co.uk
                   </a>
