@@ -255,15 +255,20 @@ section.home {
   display: none;
 }
 
+
 .portfolio-item {
   position: relative;
   overflow: hidden;
 
   .thumb {
     overflow: hidden;
+    
   }
+  
+  
 
   .details {
+    border-radius: 2px red; 
     color: #fff;
     position: absolute;
     height: 100%;
@@ -573,6 +578,7 @@ select.portfolio-filter-mobile {
 
     h4.title {
       font-size: 20px;
+      margin-bottom: 10px;
 
       a {
         color: $colordark;

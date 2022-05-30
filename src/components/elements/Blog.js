@@ -6,13 +6,15 @@ function Blog({ blogData }) {
   const {
     // id,
     category,
+    description,
     title,
     date,
     author,
     image,
     frontend,
-    backend,
-    api,
+    Languages,
+    tech,
+    other,
     live,
     githubURL,
     liveTest,
@@ -25,22 +27,20 @@ function Blog({ blogData }) {
       animateOnce={true}
     >
       <div className="blog-item rounded bg-white shadow-dark">
-        <div className="thumb">
+        <div className="thumb img-fluid">
           <a>
             <span className="category">{category}</span>
           </a>
 
-          <img className="w-100" src={image} alt="blog-title" />
+          <img className="img-fluid " src={image} alt="blog-title" />
         </div>
         <div className="details">
-          <h4 className="my-0 title">{title}</h4>
-          <ul className="list-inline meta mb-0 mt-2">
-            <li className="list-inline-item">{date}</li>
-            <li className="list-inline-item">{author}</li>
-          </ul>
-          <p>{frontend}</p>
-          <p>{backend}</p>
-          <p>{api}</p>
+          <h4 className="my-0 title mb-2">{title}</h4>
+
+          <p className="">{description}</p>
+          <p className="">{Languages}</p>
+          <p>{tech}</p>
+          <p>{other}</p>
           <div className="d-flex justify-content-between  my-2">
             {live && <Link className="btn btn-default btn-md">Live</Link>}
             <a
@@ -48,7 +48,7 @@ function Blog({ blogData }) {
               href={githubURL}
               className="btn btn-default btn-md"
             >
-              Source
+              Source Code
             </a>
             <a
               target="_blank"
