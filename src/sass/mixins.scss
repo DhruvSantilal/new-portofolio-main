@@ -5,6 +5,8 @@ $coloryellow: #FFD15C;
 $colorpink: #FF4C60;
 $colorblue: #6C6CE5;
 $colordefault: #454360;
+$colorturqoise: #44D7B6;
+$colorwhite: #edf2f4;
 
 @mixin transition($second) {
   -webkit-transition: all $second ease-in-out;

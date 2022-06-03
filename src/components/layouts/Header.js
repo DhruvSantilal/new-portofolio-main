@@ -88,22 +88,63 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
               </Link>
             </li>
             <li>
-              <Link
-                 activeClass="active"
-                to="section-about"
-                target="_blank"
-                download
+              <a
+                activeClass="active"
+                href="../../dhruv-santilal-2022-frontend.pdf"
+                download="dhruv-santilal-2022-frontend.pdf"
                 spy={true}
                 smooth={true}
                 duration={500}
               >
                 <i className="icon-doc"></i> CV
-              </Link>
+              </a>
+            </li>
+            <li>
+              <a
+                activeClass="active"
+                target="_blank"
+                href="https://www.linkedin.com/in/dhruv-santilal-4b8790210/"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <i className="fab fa-linkedin"></i> Linkedin
+              </a>
+            </li>
+            <li>
+              <a
+                activeClass="active"
+                target="_blank"
+                href="https://github.com/DhruvSantilal"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                <i className="fab fa-github"></i> Github
+              </a>
             </li>
           </ul>
         </nav>
 
-        <div className="footer">
+        <div className="footer d-flex  flex-column justify-content-center  align-items-center">
+          {/* <div>
+            <ul className="social-icons light list-inline mb-0 mt-4">
+              <li className="list-inline-item">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/dhruv-santilal-4b8790210/"
+                >
+                  <i class="fab fa-linkedin"></i>{" "}
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a target="_blank" href="https://github.com/DhruvSantilal">
+                  <i className="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div> */}
+
           <span className="copyright">
             &copy; {new Date().getFullYear()} Dhruv Santilal.
           </span>

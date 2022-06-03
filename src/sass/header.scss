@@ -64,13 +64,13 @@ header.desktop-header-1 {
 
 			&:hover,
 			&.active {
-				color: $coloryellow;
+				color: $colorturqoise;
 				cursor: pointer;
 			}
 		}
 
 		i {
-			color: $coloryellow;
+			color: $colorturqoise;
 			margin-right: 20px;
 		}
 	}
@@ -117,7 +117,7 @@ header.desktop-header-1 {
 	}
 
 	.vertical-menu li .nav-link.active {
-		color: $coloryellow;
+		color: $colorturqoise;
 	}
 
 	/* === Submenu === */
@@ -236,10 +236,10 @@ header.desktop-header-2 {
 
 		a {
 			&:hover {
-				color: $coloryellow;
+				color: $colorturqoise;
 
 				i {
-					color: $coloryellow;
+					color: $colorturqoise;
 					opacity: 1;
 				}
 			}
@@ -270,10 +270,10 @@ header.desktop-header-2 {
 	}
 
 	.vertical-menu li .nav-link.active {
-		color: $coloryellow;
+		color: $colorturqoise;
 
 		i {
-			color: $coloryellow;
+			color: $colorturqoise;
 			opacity: 1;
 		}
 	}
@@ -489,11 +489,11 @@ header.mobile-header-2 {
 		cursor: pointer;
 
 		&.active {
-			color: $coloryellow !important;
+			color: $colorturqoise !important;
 		}
 
 		&:hover {
-			color: $coloryellow !important;
+			color: $colorturqoise !important;
 		}
 	}
 
