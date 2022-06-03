@@ -90,8 +90,8 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
             <li>
               <a
                 activeClass="active"
-                href="../../dhruv-santilal-2022-frontend.pdf"
-                download="dhruv-santilal-2022-frontend.pdf"
+                href="../cv/dhruv-santilal-2022-frontend.pdf"
+                download="dhruv-santilal-2022-CV"
                 spy={true}
                 smooth={true}
                 duration={500}
