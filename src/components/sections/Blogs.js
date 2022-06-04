@@ -3,6 +3,7 @@ import React from "react";
 import Blog from "../elements/Blog";
 import Pagetitle from "../elements/Pagetitle";
 import Brandlogos from "./Brandlogos";
+const languages = "Languages";
 
 const allBlogs = [
   {
@@ -13,9 +14,21 @@ const allBlogs = [
     description: "Search up crypto currency prices, volume and rank.",
     githubURL: "https://github.com/DhruvSantilal/crypto-app",
     liveTest: "https://crypto-app-project.netlify.app/",
-    Languages: "Languages: [HTML. CSS. JS]",
-    tech: "Tech: [Spring, SpringBoot, SpringSecurity]",
-    other: "Other: N/A",
+    Languages: (
+      <p>
+        <b>Languages: </b> [ HTML. CSS. JS]
+      </p>
+    ),
+    tech: (
+      <p>
+        <b>Tech: </b> [ Spring, SpringBoot, SpringSecurity]
+      </p>
+    ),
+    other: (
+      <p>
+        <b>Other: </b> N/A
+      </p>
+    ),
   },
   {
     id: 2,
@@ -25,9 +38,21 @@ const allBlogs = [
     description: "simple nextjs application with routes and crypto API.",
     githubURL: "https://github.com/DhruvSantilal/todo-nextjs",
     liveTest: "https://todo-nextjs-project.vercel.app/",
-    Languages: "Languages: [HTML. CSS. JS]",
-    tech: "Tech: [Spring, SpringBoot, SpringSecurity]",
-    other: "Other: N/A",
+    Languages: (
+      <p>
+        <b>Languages: </b> [ HTML. CSS. JS]
+      </p>
+    ),
+    tech: (
+      <p>
+        <b>Tech: </b> [ Spring, SpringBoot, SpringSecurity]
+      </p>
+    ),
+    other: (
+      <p>
+        <b>Other: </b> N/A
+      </p>
+    ),
   },
 
   {
@@ -38,9 +63,22 @@ const allBlogs = [
     description: "Full-stack recycling website to recycle unwanted items.",
     githubURL: "https://github.com/DhruvSantilal/IRecycle",
     liveTest: "https://github.com/DhruvSantilal/IRecycle",
-    Languages: "Languages: [HTML. CSS. JS]",
-    tech: "Tech: [Spring, SpringBoot, SpringSecurity]",
-    other: "Other: N/A",
+    Languages: (
+      <p>
+        <b>Languages: </b> [ HTML. CSS. JS]
+      </p>
+    ),
+    tech: (
+      <p>
+        <b>Tech: </b> [ Spring, SpringBoot, SpringSecurity]
+      </p>
+    ),
+    other: (
+      <p>
+        <b>Other: </b>
+        N/A
+      </p>
+    ),
   },
   {
     id: 4,
@@ -51,9 +89,21 @@ const allBlogs = [
       "Mobile application to search food recipes and nutrition facts.",
     githubURL: "https://github.com/DhruvSantilal/alternativeFYP",
     liveTest: "https://github.com/DhruvSantilal/alternativeFYP",
-    Languages: "Languages: [HTML. CSS. JS]",
-    tech: "Tech: [Spring, SpringBoot, SpringSecurity]",
-    other: "Other: N/A",
+    Languages: (
+      <p>
+        <b>Languages: </b> [ HTML. CSS. JS]
+      </p>
+    ),
+    tech: (
+      <p>
+        <b>Tech: </b> [ Spring, SpringBoot, SpringSecurity]
+      </p>
+    ),
+    other: (
+      <p>
+        <b>Other: </b> N/A
+      </p>
+    ),
   },
   {
     id: 5,
@@ -63,9 +113,21 @@ const allBlogs = [
     description: "visualising covid-19 data with cards and charts.",
     githubURL: "https://github.com/DhruvSantilal/covid19-tracker",
     liveTest: "https://covid19-tracker-tau-six.vercel.app/",
-    Languages: "Languages: [HTML. CSS. JS]",
-    tech: "Tech: [Spring, SpringBoot, SpringSecurity]",
-    other: "Other: N/A",
+    Languages: (
+      <p>
+        <b>Languages: </b> [ HTML. CSS. JS]
+      </p>
+    ),
+    tech: (
+      <p>
+        <b>Tech: </b> [ Spring, SpringBoot, SpringSecurity]
+      </p>
+    ),
+    other: (
+      <p>
+        <b>Other: </b> N/A
+      </p>
+    ),
   },
 
   {
@@ -77,9 +139,21 @@ const allBlogs = [
       "2D Platformer Game made in Unity as bounty hunter to collect coins.",
     githubURL: "https://github.com/DhruvSantilal/2DPlatformerGame",
     liveTest: "https://github.com/DhruvSantilal/2DPlatformerGame",
-    Languages: "Languages: [HTML. CSS. JS]",
-    tech: "Tech: [Spring, SpringBoot, SpringSecurity]",
-    other: "Other: N/A",
+    Languages: (
+      <p>
+        <b>Languages: </b> [ HTML. CSS. JS]
+      </p>
+    ),
+    tech: (
+      <p>
+        <b>Tech: </b> [ Spring, SpringBoot, SpringSecurity]
+      </p>
+    ),
+    other: (
+      <p>
+        <b>Other: </b> N/A
+      </p>
+    ),
   },
 
   // {
@@ -101,9 +175,10 @@ function Blogs() {
     <section id="blog">
       <div className="container w-100">
         <Pagetitle title="Latest Projects" />
+        {/* blogs */}
         <div className="row blog-wrapper container ps-5 pe-5">
           {allBlogs.map((blogItem) => (
-            <div className=" col col-lg-4 my-4 w-20" key={blogItem.id}>
+            <div className="items-adjuster col col-lg-4 my-4 w-20 h-50" key={blogItem.id}>
               <Blog blogData={blogItem} />
             </div>
           ))}

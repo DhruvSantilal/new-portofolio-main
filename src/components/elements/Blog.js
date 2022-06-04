@@ -26,16 +26,16 @@ function Blog({ blogData }) {
       animateOut="fadeInOut"
       animateOnce={true}
     >
-      <div className="blog-item rounded bg-white shadow-dark">
+      <div className="blog-item rounded bg-white shadow-dark projects-container">
         <div className="thumb img-fluid">
           <a>
             <span className="category">{category}</span>
           </a>
 
-          <img className="img-fluid " src={image} alt="blog-title" />
+          <img className="img-adjuster" src={image} alt="blog-title" />
         </div>
-        <div className="details">
-          <h4 className="my-0 title mb-2">{title}</h4>
+        <div className="details justify-content-evenly align-items-between">
+          <h4 className="my-0 title mb-2 border-bottom pb-1">{title}</h4>
 
           <p className="">{description}</p>
           <p className="">{Languages}</p>

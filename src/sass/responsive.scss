@@ -70,6 +70,8 @@ only screen and (min-device-pixel-ratio: 1.5){
 	}
 	.portfolio-item, .blog-item {
 		max-width: 360px;
+		max-height: 400px;
+		height: 300px;
 		margin: auto;
 	}
 	.blog-wrapper {

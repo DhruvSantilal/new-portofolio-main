@@ -255,14 +255,28 @@ section.home {
   display: none;
 }
 
+.img-adjuster{
+  width: 100%;
+  max-height: 200px;
+}
+
+// .projects-container{
+  
+// }
 
 .portfolio-item {
   position: relative;
   overflow: hidden;
 
+  
+
   .thumb {
     overflow: hidden;
     
+    .img-adjuster {
+      width: 100%;
+      height: 50px;
+    }
   }
   
   
@@ -527,6 +541,8 @@ select.portfolio-filter-mobile {
 /*=================================================================*/
 /*                      BLOG                              
 /*=================================================================*/
+
+
 .blog-item {
   overflow: hidden;
   -webkit-transform: translateY(0);
@@ -561,11 +577,11 @@ select.portfolio-filter-mobile {
   }
 
   .category {
-    background: $colorpink;
+    background: $colorturqoise;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    color: #fff;
-    font-size: 14px;
+    color: white;
+    font-size: 15px;
     padding: 2px 8px;
     position: absolute;
     left: 20px;
