@@ -16,7 +16,7 @@ let passion = `
  `;
 let skills = `
 📚 Most experienced within JavaScript [React.JS, Next.JS],  HTML, CSS/CSS frameworks [Tailwind, Bootstrap, Material UI and Sass ] and Java. `;
-let future = `💻 Well familliar with working in a group using methodologies such as AGILE, SCRUM, Kanban and Github.`;
+let future = `💻 Well familliar with working in a group using methodologies such as AGILE, SCRUM, Kanban, Github and Code Testing.`;
 
 function About() {
   return (
