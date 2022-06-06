@@ -11,22 +11,25 @@ const allBlogs = [
     title: "Crypto App",
     image: "images/crypto-app.png",
     category: "React",
-    description: "Search up crypto currency prices, volume and rank.",
+    description:
+      "Searches cryptocurrency prices and ranks, fetching data from an API.",
     githubURL: "https://github.com/DhruvSantilal/crypto-app",
     liveTest: "https://crypto-app-project.netlify.app/",
+
     Languages: (
       <p>
-        <b>Languages: </b> [ HTML. CSS. JS]
+        <b>Languages: </b> [ Javascript, HTML, CSS]
       </p>
     ),
     tech: (
       <p>
-        <b>Tech: </b> [ Spring, SpringBoot, SpringSecurity]
+        <b>Tech: </b> [ React.js, API, Axiosand React Hooks]
       </p>
     ),
     other: (
       <p>
-        <b>Other: </b> N/A
+        <b>Other: </b> [Github, Netlify ]<p className="text-white">.</p>
+        <p className="text-white">.</p>
       </p>
     ),
   },
@@ -35,22 +38,25 @@ const allBlogs = [
     title: "Next.js Todo App",
     image: "images/todo.png",
     category: "Next.js",
-    description: "simple nextjs application with routes and crypto API.",
+    description:
+      "Todo List App using NEXT.JS and TAILWIND CSS styling and hosted with VERCEL.",
     githubURL: "https://github.com/DhruvSantilal/todo-nextjs",
     liveTest: "https://todo-nextjs-project.vercel.app/",
+
     Languages: (
       <p>
-        <b>Languages: </b> [ HTML. CSS. JS]
+        <b>Languages: </b> [ Javascript, HTML, CSS]
       </p>
     ),
     tech: (
       <p>
-        <b>Tech: </b> [ Spring, SpringBoot, SpringSecurity]
+        <b>Tech: </b> [ React.js, Next,js, Axiosand React Hooks]
       </p>
     ),
     other: (
       <p>
-        <b>Other: </b> N/A
+        <b>Other: </b> [Github, Vercel ]<p className="text-white">.</p>
+        <p className="text-white">.</p>
       </p>
     ),
   },
@@ -60,48 +66,53 @@ const allBlogs = [
     title: "IRecycle",
     image: "images/home-final.jpg",
     category: "Full-Stack",
-    description: "Full-stack recycling website to recycle unwanted items.",
+    description:
+      "FULL-STACK recycling website to help recycle unwanted items, working in a group project.",
     githubURL: "https://github.com/DhruvSantilal/IRecycle",
     liveTest: "https://github.com/DhruvSantilal/IRecycle",
+
     Languages: (
       <p>
-        <b>Languages: </b> [ HTML. CSS. JS]
+        <b>Languages: </b> [ Javascript, HTML, CSS, JAVA, PHP]
       </p>
     ),
     tech: (
       <p>
-        <b>Tech: </b> [ Spring, SpringBoot, SpringSecurity]
+        <b>Tech: </b> [ API, Java Springboot, SQL]
       </p>
     ),
     other: (
       <p>
-        <b>Other: </b>
-        N/A
+        <b>Other: </b> [Github, Trello (Scrum Agile methodology), Testing
+        tables]
       </p>
     ),
   },
   {
     id: 4,
-    title: "Alternative",
+    title: "Alternative - Final year project ",
     image: "images/alternative-all.png",
     category: "React-native",
     description:
-      "Mobile application to search food recipes and nutrition facts.",
+      "Mobile application to search food recipes and nutrition facts to promotehealthy lifestyle.",
     githubURL: "https://github.com/DhruvSantilal/alternativeFYP",
     liveTest: "https://github.com/DhruvSantilal/alternativeFYP",
+
     Languages: (
       <p>
-        <b>Languages: </b> [ HTML. CSS. JS]
+        <b>Languages: </b> [ Javascript, HTML, CSS]
       </p>
     ),
     tech: (
       <p>
-        <b>Tech: </b> [ Spring, SpringBoot, SpringSecurity]
+        <b>Tech: </b> [ React Native, Spoonacular API, Axios, Firebase Auth,
+        Expo and Android studio]
       </p>
     ),
     other: (
       <p>
-        <b>Other: </b> N/A
+        <b>Other: </b> [Kanban Agile Methodology, High level Testing(W/B),
+        Trello, Github]
       </p>
     ),
   },
@@ -110,22 +121,26 @@ const allBlogs = [
     title: "Covid-19 Tracker",
     image: "images/covid-tracker.png",
     category: "React",
-    description: "visualising covid-19 data with cards and charts.",
+    description:
+      "Visualising covid-19 data with cards and charts using APIs and Material UI.",
     githubURL: "https://github.com/DhruvSantilal/covid19-tracker",
     liveTest: "https://covid19-tracker-tau-six.vercel.app/",
+
     Languages: (
       <p>
-        <b>Languages: </b> [ HTML. CSS. JS]
+        <b>Languages: </b> [ Javascript, HTML, CSS]
       </p>
     ),
     tech: (
       <p>
-        <b>Tech: </b> [ Spring, SpringBoot, SpringSecurity]
+        <b>Tech: </b> [ React.js, API, Axios, Material UI, Chart.js and React
+        Hooks]
       </p>
     ),
     other: (
       <p>
-        <b>Other: </b> N/A
+        <b>Other: </b> [Github, Vercel]
+        <p className="text-white">.</p>
       </p>
     ),
   },
@@ -136,22 +151,24 @@ const allBlogs = [
     image: "images/2dplatformer.png",
     category: "Unity Game",
     description:
-      "2D Platformer Game made in Unity as bounty hunter to collect coins.",
+      "2D Platformer Game made in Unity as a bounty hunter to collect coins from 3 levels.",
     githubURL: "https://github.com/DhruvSantilal/2DPlatformerGame",
     liveTest: "https://github.com/DhruvSantilal/2DPlatformerGame",
+
     Languages: (
       <p>
-        <b>Languages: </b> [ HTML. CSS. JS]
+        <b>Languages: </b> [ C#]
       </p>
     ),
     tech: (
       <p>
-        <b>Tech: </b> [ Spring, SpringBoot, SpringSecurity]
+        <b>Tech: </b> [ Unity, Sprites, Scripts, Audio, Assets and AI]
       </p>
     ),
     other: (
       <p>
-        <b>Other: </b> N/A
+        <b>Other: </b> [Github]
+        <p className="text-white">.</p>
       </p>
     ),
   },
@@ -178,7 +195,10 @@ function Blogs() {
         {/* blogs */}
         <div className="row blog-wrapper container ps-5 pe-5">
           {allBlogs.map((blogItem) => (
-            <div className="items-adjuster col col-lg-4 my-4 w-20 h-50" key={blogItem.id}>
+            <div
+              className="items-adjuster col col-lg-4 my-4 w-20 h-50"
+              key={blogItem.id}
+            >
               <Blog blogData={blogItem} />
             </div>
           ))}

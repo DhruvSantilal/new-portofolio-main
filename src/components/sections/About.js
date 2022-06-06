@@ -6,17 +6,17 @@ import { Link } from "react-router-dom";
 import File from "../../dhruv-santilal-2022-frontend.pdf";
 
 let intro = `
-  👋🏽 Hi, my name is Dhruv Santilal
+  👋🏽 Hi, my name is Dhruv Santilal.
   `;
 let education = `
-  🎓 Soon to be a grad with a Bachelor's of Science in Computer Science - First (June 2022) 
+  🎓 Soon to be a graduate with a Bachelor's of Science in Computer Science.
  `;
 let passion = `
-🌇 London based, with a passion for software development and cloud technologies 
+🌇 London based, with a passion for front-end development and software development. 
  `;
 let skills = `
-📚 Most experienced within JavaScript [React.JS, Redux, Node.JS, Express.JS] and Java [Spring, Springboot] and currently pursuing AWS Solutions Architect Certification `;
-// let future = `💻 As for my future, I am looking for offers as a Full-Stack Developer within a diverse team at a company that will push me to learn and hone in on my abilities further`;
+📚 Most experienced within JavaScript [React.JS, Next.JS],  HTML, CSS/CSS frameworks [Tailwind, Bootstrap, Material UI and Sass ] and Java. `;
+let future = `💻 Well familliar with working in a group using methodologies such as AGILE, SCRUM, Kanban and Github.`;
 
 function About() {
   return (
@@ -43,6 +43,7 @@ function About() {
                   <p className="text-justify">{education}</p>
                   <p className="text-justify">{passion}</p>
                   <p className="text-justify">{skills}</p>
+                  <p className="text-justify">{future}</p>
                   <div className="mt-3">
                     <Link
                       to={File}
