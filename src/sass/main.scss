@@ -259,7 +259,18 @@ section.home {
   width: 100%;
   max-height: 200px;
 }
+.more-projects-btn-div{
+  display: flex;
+  justify-content: center;
+}
 
+.btn-more-projects{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
 // .projects-container{
   
 // }

@@ -202,6 +202,15 @@ function Blogs() {
               <Blog blogData={blogItem} />
             </div>
           ))}
+          <div className="more-projects-btn-div">
+            <a
+              target="_blank"
+              href="https://github.com/DhruvSantilal"
+              className="btn btn-default btn-md d-fex btn-more-projects btn-dark bg-dark"
+            >
+              More Projects
+            </a>
+          </div>
         </div>
         <Brandlogos />
         <div className="text-center">
