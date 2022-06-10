@@ -9,14 +9,14 @@ let intro = `
   👋🏽 Hi, my name is Dhruv Santilal.
   `;
 let education = `
-  🎓 Soon to be a graduate with a Bachelor's of Science in Computer Science.
+  🎓 Soon to be a graduate with a Bachelor's of Science in Computer Science with a FIRST CLASS HONOURS(1.1).
  `;
 let passion = `
 🌇 London based, with a passion for front-end development and software development. 
  `;
 let skills = `
 📚 Most experienced within JavaScript [React.JS, Next.JS],  HTML, CSS/CSS frameworks [Tailwind, Bootstrap, Material UI and Sass ] and Java. `;
-let future = `💻 Well familliar with working in a group using methodologies such as AGILE, SCRUM, Kanban, Github and Code Testing.`;
+let future = `💻 Well familliar with working in a group using methodologies such as AGILE, SCRUM, Kanban, Github and variours Code Testing methods.`;
 
 function About() {
   return (
