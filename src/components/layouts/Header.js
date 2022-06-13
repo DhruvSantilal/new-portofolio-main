@@ -90,7 +90,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
             <li>
               <a
                 activeClass="active"
-                href="../cv/dhruv-santilal-2022-frontend.pdf"
+                href="../cv/Dhruv-santilal-cv-2022-graduate-frontend.pdf"
                 download="dhruv-santilal-2022-CV"
                 spy={true}
                 smooth={true}

@@ -3,7 +3,7 @@ import React from "react";
 import Pagetitle from "../elements/Pagetitle";
 
 import { Link } from "react-router-dom";
-import File from "../../dhruv-santilal-2022-frontend.pdf";
+import File from "../../Dhruv-santilal-cv-2022-graduate-frontend.pdf";
 
 let intro = `
   👋🏽 Hi, my name is Dhruv Santilal.
@@ -12,7 +12,7 @@ let education = `
   🎓 Graduated with a Bachelor's of Science in Computer Science with a FIRST CLASS HONOURS(1.1).
  `;
 let passion = `
-🌇 London based, with a passion for front-end development and software development. 
+🌇 London based, with a passion for front-end development and software development and looking to work with Reactjs. 
  `;
 let skills = `
 📚 Most experienced within JavaScript [React.JS, Next.JS],  HTML, CSS/CSS frameworks [Tailwind, Bootstrap, Material UI and Sass ] and Java. `;

@@ -23,7 +23,7 @@ const allBlogs = [
     ),
     tech: (
       <p>
-        <b>Tech: </b> [ React.js, API, Axiosand React Hooks]
+        <b>Tech: </b> [ React.js, API, Axios and React Hooks]
       </p>
     ),
     other: (
@@ -50,7 +50,7 @@ const allBlogs = [
     ),
     tech: (
       <p>
-        <b>Tech: </b> [ React.js, Next,js, Axiosand React Hooks]
+        <b>Tech: </b> [ React.js, Next,js, Axios and React Hooks]
       </p>
     ),
     other: (
