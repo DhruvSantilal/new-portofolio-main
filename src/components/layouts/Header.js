@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import File from "../../dhruv-santilal-2022-frontend.pdf";
+import File from "../../Dhruv-santilal-cv-2022-graduate-frontend.pdf";
 // import Logo from "../elements/Logo";
 
 function Header({ light, logoSource, toggleMenu, headerToggler }) {
@@ -90,7 +90,7 @@ function Header({ light, logoSource, toggleMenu, headerToggler }) {
             <li>
               <a
                 activeClass="active"
-                href="../cv/Dhruv-santilal-cv-2022-graduate-frontend.pdf"
+                href={File}
                 download="dhruv-santilal-2022-CV"
                 spy={true}
                 smooth={true}
